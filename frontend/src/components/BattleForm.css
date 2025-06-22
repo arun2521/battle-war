@@ -1,0 +1,98 @@
+.battle_container {
+  .hdr_text {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
+
+  .form_container {
+    .form_fields {
+      margin-top: 2rem;
+      padding: 1rem;
+    }
+
+    .form_field_div {
+      padding: 1rem;
+
+      .font-semibold {
+        padding-right: 1.5rem;
+      }
+
+      .input_fields {
+        height: 40px;
+        width: 400px;
+        border-radius: 10px;
+        border: none;
+        padding: 3px 10px;
+      }
+    }
+
+    .submit_btn {
+      padding: 1rem 1.2rem;
+      border-radius: 15px;
+      border: none;
+      margin-top: 1.5rem;
+      background-color: #ffead8;
+      color: black;
+      font-weight: 600;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+  }
+
+  .table_div {
+    padding-left: 1.25rem;
+  }
+
+  .battle-table {
+    width: 100%;
+    max-width: 70%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    font-family: Arial, sans-serif;
+  }
+
+  .battle-table th,
+  .battle-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+
+  .battle-table th {
+    background-color: #ffead8;
+    color: black;
+    font-weight: bold;
+  }
+
+  .battle-table tr:nth-child(even) {
+    background-color: #ffd8d8;
+    color: black;
+  }
+
+  .battle-table tr:hover {
+    background-color: #ffead8;
+    color: black;
+  }
+
+  .outcome-win {
+    color: green;
+    font-weight: bold;
+  }
+
+  .outcome-loss {
+    color: red;
+    font-weight: bold;
+  }
+
+  .outcome-draw {
+    color: orange;
+    font-weight: bold;
+  }
+
+  .error_mgs_div {
+    padding-left: 1.25rem;
+  }
+}
